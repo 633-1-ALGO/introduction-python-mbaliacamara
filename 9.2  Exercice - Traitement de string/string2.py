@@ -3,4 +3,6 @@
 texte = "Ceci est un exemple exemplaire d'exemple exempté d'exemple."
 
 occ = texte.count("exemple")
-print("Il y a ", occ, " fois le mot exem")
+print("Il y a ", occ, " fois le mot exemple")
+print(texte.replace("est","représente"))
+
