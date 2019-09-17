@@ -8,13 +8,10 @@
 #
 # Résultat attendu : Un message affichant "Année bissextile" ou "Année non bissextile"
 def result(annee):
-    if(annee % 4) != 0:
-        print("Année non bissextile")
-    elif(annee & 100) & (annee & 400) != 0:
-
+    if(annee % 4 == 0 and annee & 100 !=0) or annee & 400 == 0 :
         print("Année bissextile")
     else:
-        print("non bi")
+        print("Année non bissextile")
 
-result(2020)
+result(2010)
 
