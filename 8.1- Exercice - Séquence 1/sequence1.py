@@ -8,5 +8,5 @@ b = 42
 c = a
 a = b
 
-print("valeur de a: ", a)
-print("valeur de b: ",c)
+print("Valeur de a: ", a)
+print("Valeur de b: ",c)

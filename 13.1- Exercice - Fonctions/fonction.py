@@ -11,6 +11,6 @@ for i in range(0, len(texte)):
             if tab_lettres[0][j] == texte[i]:
                 tab_lettres[1][j] += 1
 for i in range(0, len(tab_lettres[0])):
-        print("caractère '", tab_lettres[0][i], "': ", tab_lettres[1][i], " ", sep='')
+        print("caractère  '", tab_lettres[0][i], "': ", tab_lettres[1][i], " ", sep='')
 
 

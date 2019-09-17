@@ -5,6 +5,7 @@
 c = 42
 d = 31
 
+
 if (c > 0) & (d > 0):
     print("Produit positif")
 elif (c < 0) & (d < 0):
@@ -15,4 +16,5 @@ elif (c > 0) & (d < 0):
     print("Produit négatif")
 else:
     print("Produit nul")
+
 

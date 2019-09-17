@@ -8,4 +8,4 @@ for i in A:
     somme += i
 moy = somme / len(A)
 
-print("La moyenne est de : ", moy)
+print("La moyenne est de: ", moy)
